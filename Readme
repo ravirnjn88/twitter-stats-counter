@@ -1,0 +1,16 @@
+Twitter HasTag Stat Counter
+===========================
+
+Dependencies
+1) Python-Requests
+2) Mysqldb Connector
+
+Use
+1) Fill the dbauth.py file with your mysql database credential. Create a Different database for different hastag.
+2) Run the create_table.py script for necessary table creation.
+3) Get Your Key and Secret Key from Twitter and fill it in the get_access_token.py. Run This script and get your access_token.
+4) Write Down the access_token in tweet_count.py script.
+5) For searching for a has tag replace #JazbaaTrailer with your tag in tweet_count.py
+6) Change the value of i no of times you want to run the script. In one loop it will get 100 tweets.
+
+This Code Was used in writting this blog : http://goo.gl/KVLONs 
